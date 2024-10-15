@@ -14,6 +14,13 @@ config/name="Prueba"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
 
+[layer_names]
+
+2d_physics/layer_1="Personaje"
+2d_physics/layer_2="Enemigo"
+2d_physics/layer_3="Limites"
+2d_physics/layer_4="Recogibles"
+
 [rendering]
 
 renderer/rendering_method="mobile"
